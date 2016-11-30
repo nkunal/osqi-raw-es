@@ -1,0 +1,7 @@
+{:group.id "dev.osqi-raw-es.edn"
+ :kafka.zk.connect "localhost:2181/kafka"
+ :topic.name "agentlog"
+ :health.port 31502
+ :batch.size 2
+ :es.url "http://localhost:9200"
+ }
